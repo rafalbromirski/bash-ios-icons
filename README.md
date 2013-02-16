@@ -11,18 +11,18 @@ This script is used to convert one large iOS App icon (1024x1024) into smaller o
 
 As an output you will receive:
 
-| Icon Size     | File name             |
-| ------------- | --------------------- |
-| 1024x1024     | iTunesArtwork@2x.png  |
-| 512x512       | iTunesArtwork.png     |
-| 144x144       | Icon-72@2x.png        |
-| 72x72         | Icon-72.png           |
-| 114x114       | Icon@2x.png           |
-| 57x57         | Icon.png              |
-| 100x100       | Icon-Small-50@2x.png  |
-| 50x50         | Icon-Small-50.png     |
-| 58x58         | Icon-Small@2x.png     |
-| 29x29         | Icon-Small.png        |
+| Icon Size     | File name               |
+| ------------- | ----------------------- |
+| 1024x1024     | `iTunesArtwork@2x.png`  |
+| 512x512       | `iTunesArtwork.png`     |
+| 144x144       | `Icon-72@2x.png`        |
+| 72x72         | `Icon-72.png`           |
+| 114x114       | `Icon@2x.png`           |
+| 57x57         | `Icon.png`              |
+| 100x100       | `Icon-Small-50@2x.png`  |
+| 50x50         | `Icon-Small-50.png`     |
+| 58x58         | `Icon-Small@2x.png`     |
+| 29x29         | `Icon-Small.png`        |
 
 ### Useful links:
 
