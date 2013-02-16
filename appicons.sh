@@ -27,6 +27,11 @@ function init
   sips -s format png -z 29 29     $FILE --out $DIR/Icon-Small.png
 }
 
+function file_error
+{
+  echo "Error: Sorry but the file does not exist!"
+}
+
 function hint
 {
   echo "This script is used to convert one large iOS App icon (1024x1024) into smaller ones based on iOS Human Interface Guidelines"
@@ -40,8 +45,10 @@ function hint
 
 FILE=$1
 
-if [ $FILE ]; then
+if [ -e "$FILE" ]; then
   init
+elif [ "$FILE" ]; then
+  file_error
 else
   hint
 fi
