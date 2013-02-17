@@ -7,7 +7,7 @@ This script is used to convert one large iOS App icon (1024x1024) into smaller o
 
 #### Requirements:
 
-- [sips (scriptable image processing system)](https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/sips.1.html)
+- [sips (scriptable image processing system)](https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/sips.1.html) - OSX has it built-in
 
 #### How to use it:
 
